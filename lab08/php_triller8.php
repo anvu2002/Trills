@@ -9,7 +9,7 @@
 
 	if(!isset($_SESSION["dbUser"]))
 	{
-		header( "Location: /lab08/php_login.php");
+		header( "Location: ./php_login.php");
 		exit();
 	}
 	/***

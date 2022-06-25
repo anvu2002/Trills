@@ -11,7 +11,7 @@
 
 	if(isset($_SESSION["dbUser"])) // Không cần phải Login nữa
 	{
-		header( "Location: /lab08/php_triller8.php");
+		header( "Location: ./php_triller8.php");
 		exit();	
 	}
 
@@ -73,7 +73,7 @@ if (isset($_POST['user']) && isset($_POST['pass']))
 		}
 		function sign_in()
 		{
-			window.location.assign("http://localhost/lab08/php_login.php")
+			window.location.assign("http://localhost./php_login.php")
 		}
 
 		

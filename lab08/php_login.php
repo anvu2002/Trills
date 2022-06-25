@@ -11,7 +11,7 @@
 
 	if(isset($_SESSION["dbUser"])) // Không cần phải Login nữa
 	{
-		header( "Location: /lab08/php_triller8.php");
+		header( "Location: ./php_triller8.php");
 		exit();
 	}
 
@@ -53,7 +53,7 @@
 				setcookie ('triller','', 0, '/');
 			}
 
-			header( "Location: /lab08/php_triller8.php"); // allow  to login 
+			header( "Location: ./php_triller8.php"); // allow  to login 
 			unset($_POST); // to save memory ...
 			exit();
 		}
@@ -96,7 +96,7 @@
 		}
 		function sign_up()
 		{
-			window.location.assign("http://localhost/lab08/php_signup.php")
+			window.location.assign("http://localhost./php_signup.php")
 		}
 			
 
